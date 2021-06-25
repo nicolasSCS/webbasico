@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>By Nicolas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+      
+    <div class="container">
+        
+        <div class="jumbotron page-header">
+            <h1>Atividades Favoritas</h1>
+            
+
+        </div>
+        <div  class="text-right" >
+            <h3><a href="#sobre"> Clique aqui para me conhecer</a></h3>
+        </div> 
+        <section>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+                <img  src="https://midias.correiobraziliense.com.br/_midias/jpg/2020/02/28/770x433/1_img2_1068x601-4209.jpg"  class="img-rounded"  alt="imagem" width=500 height=300>
+                <div class="caption">
+                  <p>Gosto de assitir série de ação, suspense e investigação.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="https://s2.glbimg.com/Qgl26Ze8x7iJ1HoFwwRkwfjgGrM=/smart/e.glbimg.com/og/ed/f/original/2020/11/05/brasil-tem-duas-praias-entre-as-cinco-melhores-do-mundo.jpg" class="img-rounded" alt="imagem" width=500 height=300>
+                <div class="caption">
+                  <p> Gosto de viajar, si aventurar, um dos meus destinos favoritos é a Praia.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="https://mhmcdn.manualdohomemmoderno.com.br/?w=750&h=450&quality=90&clipping=landscape&url=https://manualdohomemmoderno.com.br/files/2021/04/os-melhores-jogos-online-gratuitos-pra-baixar-e-jogar-agora-os-melhores-jogos-online-gratuitos-pra-baixar-e-jogar-agora-1.jpg" class="img-rounded" alt="imagem" width=500 height=300>
+                <div class="caption">
+                  <p>Gosto muito de jogar jogos, principalmente online, seja no celular ou no computador.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <section>
+            <div class="bg-success page-header ">
+                <h2>Perguntas</h2>
+                </div>
+                <button onclick="myFunction()">Clique aqui para pergunta</button>
+                <p id="demo"></p>
+                
+        </section>
+
+        <section>
+           
+                <section id="sobre" >
+                    <div class=" bg-success page-header">
+                        <h2>Sobre Mim</h2>
+              </div>
+                    <h3>Olá, me chamo Nicolas Cavalcante, tenho 19 anos, faço faculdade de Analise e Desenvolvimento de Sistemas, sou morador de Londrina.</h3>
+                    <div class=" text-center">
+                <img  src="https://themesnap.com/wp-content/uploads/2021/03/a-person-using-a-laptop.jpg"  width=500 height=300 >
+                </div>
+                   
+                
+        </section>
+    </section>
+      </div>
+</div>
+
+</body>
+</html>
+<script>
+    function myFunction()
+    {
+    var x;
+    
+    var nome=prompt("Nome:");
+    var musica=prompt("Estilo musical:");
+    
+    
+      x="Boas Vindas! " + nome + "," + musica + ".";
+      document.getElementById("demo").innerHTML=x;
+      
+    }
+    </script>
